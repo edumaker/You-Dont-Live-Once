@@ -17,3 +17,17 @@
 ```bash
 git clone https://github.com/你的用户名/laser-video-qa.git
 cd laser-video-qa
+
+### 2. 查询知识库
+
+处理完视频后，使用查询工具回顾标记内容：
+
+```bash
+python query.py
+
+功能：
+列出所有标记
+关键词搜索
+按标签筛选
+查看未回答的标记
+导出为 Markdown
